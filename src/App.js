@@ -1,9 +1,21 @@
 import React from 'react';
 import './App.css';
 
+import Router from './routes'
+
+
+
+import logo from './assets/logo.svg'
+
 function App() {
   return (
-    <h1>teste</h1>
+    <div className="container">
+      <img src={logo} alt="AirCnc"/>  
+
+      <div className="content">
+        <Router/>
+      </div>  
+    </div>
   );
 }
 
